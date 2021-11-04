@@ -1,13 +1,13 @@
-import { StyleSheet } from 'react-native';
-import { COLORS, FONTS } from '../../theme';
+import { StyleSheet } from 'react-native'
+import { COLORS, FONTS } from '../../theme'
 
 export const styles = StyleSheet.create({
   container: {
     width: '100%',
-    flexDirection: "row",
+    flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: 20
+    paddingHorizontal: 20,
   },
 
   logoutButton: {
@@ -19,6 +19,6 @@ export const styles = StyleSheet.create({
     fontSize: 15,
     fontFamily: FONTS.REGULAR,
     color: COLORS.WHITE,
-    marginRight: 20
-  }
-});
+    marginRight: 20,
+  },
+})
