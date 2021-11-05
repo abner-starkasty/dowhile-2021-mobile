@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "dowhile2021-app",
+    "slug": "dowhile2021-app",
     "version": "1.0.0",
+    "scheme": "dowhile2021-app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
