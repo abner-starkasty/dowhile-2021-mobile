@@ -50,6 +50,7 @@
       "error"
     ],
     "react/react-in-jsx-scope": "off",
+    "react/jsx-no-bind": "off",
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
     "import/extensions": [

@@ -64,7 +64,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
         api.defaults.headers.common.Authorization = `Bearer ${token}`
         await AsyncStorage.setItem(USER_STORAGE_KEY, JSON.stringify(userLogged))
-        await AsyncStorage.setItem(TOKEN_STORAGE_KEY, JSON.stringify(token))
+        await AsyncStorage.setItem(TOKEN_STORAGE_KEY, token)
 
         setUser(userLogged)
       }
